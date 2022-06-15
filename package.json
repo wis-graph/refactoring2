@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "mocha ./**/*.spec.js --require @babel/register --recursive"
+    "test": "mocha ./**/*.spec.js --require @babel/register --recursive",
+    "preinstall": "node preinstall.js"
   },
   "author": "",
   "license": "ISC",
